@@ -17,6 +17,11 @@ a{
 p{
   font-size: 12px;
 }
+.header{
+  position: fixed;
+  z-index: 9999;
+}
+
 
 .more{
   font-size: 14px;
@@ -31,7 +36,7 @@ p{
   position: fixed;
   top: 33px;
   left: 59px;
-  z-index: 1;
+
 }
 .logo img{
   width: 100%;
@@ -47,9 +52,31 @@ p{
   background-color: red;
 }
 
+
 .intro{
-  background-color: #fff;
+  display: flex;
+  height: 800px;
 }
+.intro-box{
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  width: 900px;
+  /* background-color: red; */
+}
+.intro-cap {
+
+  position: absolute;
+  top: 183px;
+  left: 140px;
+}
+.intro-read {
+
+  position: absolute;
+  top: 183px;
+  right: 136px;
+}
+
 
 .history{
   height: 800px;
@@ -58,7 +85,8 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
+  z-index: 1;
+  }
 
 .history-box{
   text-align: center;
@@ -74,16 +102,46 @@ p{
   margin-bottom: 61px;
 }
 
+
+
+
+.navy{
+  height: 800px;
+  position: relative;
+}
+
 .navy-box{
   display: flex;
-  justify-content: center;
+  position: absolute;
+  top: 165px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
 }
 
 .navy-cap{
-  
+  width: 470px;
+  position: absolute;
+  top: 87px;
+  /* left: -15px; */
+}
+.navy-cap p{
+  margin: 35px 0 0 0;
+}
+.navy-cap a{
+  display: block;
+  margin: 60px 0 0 0;
 }
 
-.essey{
+.navy-img{
+  position: absolute;
+  left: 500px;
+}
+
+
+
+.essay{
   background-color: #F2F4F4;
 }
 
