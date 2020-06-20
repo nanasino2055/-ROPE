@@ -108,6 +108,7 @@ p{
 .navy{
   height: 800px;
   position: relative;
+
 }
 
 .navy-box{
@@ -116,15 +117,11 @@ p{
   top: 165px;
   left: 50%;
   transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
 }
 
 .navy-cap{
-  width: 470px;
-  position: absolute;
+  position: relative;
   top: 87px;
-  /* left: -15px; */
 }
 .navy-cap p{
   margin: 35px 0 0 0;
@@ -135,8 +132,8 @@ p{
 }
 
 .navy-img{
-  position: absolute;
-  left: 500px;
+  position: relative;
+  left: 30px;
 }
 
 
@@ -144,7 +141,20 @@ p{
 .essay{
   background-color: #F2F4F4;
 }
-
+.essay-title{
+  padding-top: 150px;
+}
+.essay-title .writer{
+  margin-top:10px;
+}
+.essay-title p{
+  margin-top:35px;
+  line-height: 2.1em;
+  letter-spacing: 0.09em;
+}
+.essays{
+  margin-top: 100px;
+}
 
 .link{
   background-color: #fff;
