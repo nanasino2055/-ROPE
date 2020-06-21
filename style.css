@@ -154,6 +154,17 @@ p{
 }
 .essays{
   margin-top: 100px;
+  width: 900px;
+  text-align: center;
+}
+.essays-brand{
+  padding-top: 20px;
+}
+.essays-title{
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 24px;
+  letter-spacing: 0.05em;
 }
 
 .link{
