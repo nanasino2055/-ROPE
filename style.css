@@ -155,16 +155,35 @@ p{
 .essays{
   margin-top: 100px;
   width: 900px;
-  text-align: center;
+  margin: 0 auto;
+}
+.essays a{
+  padding-bottom: 10px;
+  display: inline-block;
+  position: relative;
+
 }
 .essays-brand{
   padding-top: 20px;
 }
-.essays-title{
+.thum{
   margin-top: 20px;
+}
+.essays-title{
+  margin: 20px auto 0;
   padding: 15px 30px;
   font-size: 24px;
   letter-spacing: 0.05em;
+  background-image:
+    url(image/bg_left_bracket.png),
+    url(image/bg_right_bracket.png);
+  background-repeat: no-repeat,no-repeat;
+  background-position: top left,bottom right;
+  display: inline-block;
+  position: relative;
+}
+.essays-story{
+  margin: 35px 0 30px;
 }
 
 .link{
